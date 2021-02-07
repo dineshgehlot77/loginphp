@@ -80,7 +80,7 @@ $lastname = $_POST['lastname'];
 }
 ?>
 <div class="ragister_form">
-<h4 class="bg-success p-3 text-light text-center">Ragitration Form</h4>
+<h4 class="bg-success p-3 text-light text-center">User Ragitration Form</h4>
  <form action="<?php echo $_SERVER['REQUEST_URI'] ?>" method="POST">
  <i class='fas fa-user-circle mx-3'></i>
  <input type="text" name="name" minlength="3" pattern="[A-Za-z]{1}[a-z]{2,15}" title="first capital other lowercase letters" placeholder=" firstname" required>
@@ -100,7 +100,6 @@ $lastname = $_POST['lastname'];
   <p id='error' class="text-danger mx-5"></p>
  <button type="submit" class="btn btn-success px-4 text-light mx-5 mb-4">submit</button>
  </form>
- <div>this is login file</div>
  </div>
  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" ></script>
